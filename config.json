@@ -1,0 +1,44 @@
+{
+  "name": "Autocomplete Off",
+  "namespace": "ORCA\\AutocompleteOff",
+  "description": "Disables autocomplete for fields and instruments specified in a \"baked-in\" JSON file",
+  "authors": [
+    {
+      "name": "Chris Kadolph",
+      "email": "kadolph.christopher@marshfieldresearch.org",
+      "institution": "Marshfield Clinic Research Institute"
+    },
+    {
+      "name": "Leila Deering",
+      "email": "deering.leila@marshfieldresearch.org",
+      "institution": "Marshfield Clinic Research Institute"
+    }
+  ],
+  "framework-version": 6,
+  "permissions": [
+    "redcap_data_entry_form_top",
+    "redcap_survey_page_top"
+  ],
+  "project-settings": [
+    {
+      "key": "autocomplete_off_fields",
+      "name": "Select the fields to turn off Auto Complete",
+      "type": "sub_settings",
+      "sub_settings": [
+        {
+          "key": "autocomplete_off_field_name",
+          "name": "Field to turn off Auto Complete",
+          "type": "field-list",
+          "required": false,
+          "repeatable": true
+        }
+      ]
+    }
+  ],
+  "compatibility": {
+    "php-version-min": "7.0",
+    "php-version-max": "",
+    "redcap-version-min": "9.10.0",
+    "redcap-version-max": ""
+  }
+}
