@@ -1,7 +1,7 @@
 {
   "name": "Autocomplete Off",
   "namespace": "ORCA\\AutocompleteOff",
-  "description": "Disables autocomplete for fields and instruments specified in a \"baked-in\" JSON file",
+  "description": "Disables autocomplete for fields specified in module config",
   "authors": [
     {
       "name": "Chris Kadolph",
