@@ -1,6 +1,6 @@
 {
-  "name": "Autocomplete Off",
-  "namespace": "ORCA\\AutocompleteOff",
+  "name": "Disable Autocomplete",
+  "namespace": "ORCA\\DisableAutocomplete",
   "description": "Disables autocomplete for fields specified in module config",
   "authors": [
     {

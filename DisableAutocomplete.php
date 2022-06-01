@@ -1,6 +1,6 @@
 <?php
 // Set the namespace defined in your config file
-namespace ORCA\AutocompleteOff;
+namespace ORCA\DisableAutocomplete;
 
 // The next 2 lines should always be included and be the same in every module
 use ExternalModules\AbstractExternalModule;
@@ -10,11 +10,11 @@ use Exception;
 require_once 'traits/REDCapUtils.php';
 
 /**
- * Class AutocompleteOff
- * @package ORCA\AutocompleteOff
+ * Class DisableAutocomplete
+ * @package ORCA\DisableAutocomplete
  */
-class AutocompleteOff extends AbstractExternalModule {
-    use \ORCA\AutocompleteOff\REDCapUtils;
+class DisableAutocomplete extends AbstractExternalModule {
+    use \ORCA\DisableAutocomplete\REDCapUtils;
 
     public $_module_path = null;
     public function __construct()

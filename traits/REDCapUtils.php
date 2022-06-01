@@ -1,6 +1,6 @@
 <?php
 
-namespace ORCA\AutocompleteOff;
+namespace ORCA\DisableAutocomplete;
 
 use Exception;
 
